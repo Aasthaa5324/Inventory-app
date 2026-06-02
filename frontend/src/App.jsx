@@ -29,7 +29,8 @@ function App() {
     total_orders: 0,
   });
 
-  const API_URL = "http://localhost:8000";
+  const API_URL =
+  "https://inventory-app-8iwo.onrender.com";
 
   const fetchProducts = async () => {
     try {
